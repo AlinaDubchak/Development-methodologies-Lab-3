@@ -1,6 +1,6 @@
-FROM python:3.10-alpine
+FROM python:3.11.2-bullseye
 
-RUN apk add --no-cache lapack-dev g++ gcc musl-dev
+
 
 WORKDIR /app
 
