@@ -1,6 +1,6 @@
-=======================
-Web app with Three.js
-=======================
+
+# Web app with Three.js
+
 
 > This is a starter project for the third laboratory assignment on containerization.
 > This project is written in `JavaScript and Node.js`_ programming
