@@ -55,7 +55,7 @@ function init() {
   rain = new THREE.Points(rainGeo, rainMaterial);
   scene.add(rain);
   let loader = new THREE.TextureLoader();
-  loader.load("/items/smoke1.png", function (texture) {
+  loader.load("/images/smoke1.png", function (texture) {
     cloudGeo = new THREE.PlaneBufferGeometry(500, 500);
     cloudMaterial = new THREE.MeshLambertMaterial({
       map: texture,
